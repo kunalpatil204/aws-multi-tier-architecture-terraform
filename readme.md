@@ -5,7 +5,7 @@ This project demonstrates a production-grade three-tier AWS architecture built u
 
 🏗 Architecture
 
-🔄 Architecture Flow
+🔄 Architecture Flow            
 Internet → Application Load Balancer → EC2 (Auto Scaling) → RDS Database
 
 ⚙️ Key Components                 
@@ -28,8 +28,8 @@ OS: Linux (Amazon Linux)
 Web Server: Nginx          
 Version Control: Git & GitHub          
 
-📂 Project Structure                                      
-      
+📂 Project Structure                                                         
+📂multi-tier-aws        
 ├── provider.tf          # AWS provider configuration     
 ├── backend.tf           # S3 + DynamoDB backend       
 ├── vpc.tf               # VPC and Internet Gateway         
