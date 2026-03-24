@@ -8,7 +8,7 @@ This project demonstrates a production-grade three-tier AWS architecture built u
 🔄 Architecture Flow
 Internet → Application Load Balancer → EC2 (Auto Scaling) → RDS Database
 
-⚙️ Key Components
+⚙️ Key Components                 
 VPC with CIDR block (10.0.0.0/16)     
 Public Subnets for ALB (Multi-AZ)      
 Private Subnets for EC2 and RDS      
@@ -28,8 +28,8 @@ OS: Linux (Amazon Linux)
 Web Server: Nginx          
 Version Control: Git & GitHub          
 
-📂 Project Structure 
-.
+📂 Project Structure                                      
+      
 ├── provider.tf          # AWS provider configuration     
 ├── backend.tf           # S3 + DynamoDB backend       
 ├── vpc.tf               # VPC and Internet Gateway         
@@ -43,7 +43,7 @@ Version Control: Git & GitHub
 ├── variables.tf         # Input variables             
 ├── outputs.tf           # Output values            
 
-🔐 Security Design
+🔐 Security Design                     
 EC2 instances deployed in private subnets           
 RDS database isolated in private DB subnets                   
 
