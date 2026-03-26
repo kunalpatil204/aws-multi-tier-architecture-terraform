@@ -66,7 +66,8 @@ terraform plan
 terraform apply                 
 
 SCREENSHOT
-![Uploading image.png…]()
+<img width="1684" height="2528" alt="Multi-tier-aws" src="https://github.com/user-attachments/assets/ed080cb6-9513-4c1e-8d6f-8c6cb01010c4" />
+
 
 📊 Key Learnings             
 AWS VPC and networking (subnets, routing, NAT)             
