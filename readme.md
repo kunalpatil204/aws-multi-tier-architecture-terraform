@@ -5,7 +5,7 @@ This project demonstrates a production-grade three-tier AWS architecture built u
 
 🏗 Architecture:
 
-![Uploading Multi-tier-aws.png…]()
+<img width="1684" height="2528" alt="Multi-tier-aws" src="https://github.com/user-attachments/assets/89f506ac-663d-40c9-907d-867cb8c46533" />
 
 
 🔄 Architecture Flow            
