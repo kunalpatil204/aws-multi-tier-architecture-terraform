@@ -3,7 +3,10 @@
 
 This project demonstrates a production-grade three-tier AWS architecture built using Terraform (Infrastructure as Code). The infrastructure is designed to be scalable, secure, and highly available, following real-world DevOps best practices.
 
-🏗 Architecture
+🏗 Architecture:
+
+![Uploading Multi-tier-aws.png…]()
+
 
 🔄 Architecture Flow            
 Internet → Application Load Balancer → EC2 (Auto Scaling) → RDS Database
@@ -64,11 +67,7 @@ Remote state management with S3 and DynamoDB
 terraform init          
 terraform plan            
 terraform apply                 
-
-SCREENSHOT
-<img width="1684" height="2528" alt="Multi-tier-aws" src="https://github.com/user-attachments/assets/ed080cb6-9513-4c1e-8d6f-8c6cb01010c4" />
-
-
+                         
 📊 Key Learnings             
 AWS VPC and networking (subnets, routing, NAT)             
 Load balancing and Auto Scaling concepts                
