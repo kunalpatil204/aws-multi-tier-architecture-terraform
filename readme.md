@@ -65,6 +65,9 @@ terraform init
 terraform plan            
 terraform apply                 
 
+SCREENSHOT
+![Uploading image.png…]()
+
 📊 Key Learnings             
 AWS VPC and networking (subnets, routing, NAT)             
 Load balancing and Auto Scaling concepts                
